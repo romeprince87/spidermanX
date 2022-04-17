@@ -6,7 +6,7 @@ body{
     background-color:black;
     color:rgb(157, 255, 0);
     padding:10px;
-    height:1100px;
+    height:1300px;
     width:100vw;
     display:flex;
     flex-direction:column;
@@ -53,30 +53,71 @@ body{
 }
 #footer{
     display:inline-block;
-    
     color:blueviolet;
     
     
 
 }
-#social{
-    width:30%;
+@media screen and (min-width:400px){
+    #social{
+        width:50%;
+        float:left;
+        /* margin-right: 10px; */
+        font-size: 20px;
+        text-decoration: none;
+        
+    }
+    #Disclaimer{
+        width:40%;
+        display:inline-block;
+        text-decoration: none;
+        
+        
     
-    float:left;
-    margin-right: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    
-}
-#Disclaimer{
-    width:65%;
-   
-    float:right;
-    text-decoration: none;
-    
-    
+    }
 
 }
+@media screen and (max-width:400px){
+    #social{
+        width:40%;
+        
+        
+        /* margin-right: 10px; */
+        font-size: 20px;
+        text-decoration: none;
+        
+    }
+    #Disclaimer{
+        width:50%;
+        display:block;
+        
+        text-decoration: none;
+        
+        
+    
+    }
+
+}
+@media screen and (min-width:768px){
+    #social{
+        width:35%;
+        float:left;
+        
+        margin-right: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        
+    }
+    #Disclaimer{
+        width:60%;
+        float:right;
+        text-decoration: none;
+        
+        
+    
+    }
+}
+
 a{
     color:rgb(157, 255, 0);
     text-decoration: none;
