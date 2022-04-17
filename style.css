@@ -1,0 +1,106 @@
+body{
+    background-color:black;
+}
+#main{
+
+    background-color:black;
+    color:rgb(157, 255, 0);
+    padding:10px;
+    height:1100px;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+
+}
+#heading{
+    font-size:50px;
+    height:50px;
+    text-align:center;
+    color:red;
+    display:grid;
+}
+
+
+#roadmap{
+    font-size:30px;
+    color:white;
+
+}
+
+.div1{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    height:600px;
+    width: 500px;
+    flex-wrap:wrap;
+    border:1px solid white;
+    margin:20px;
+    border-radius: 10%;
+    
+   
+}
+/* *{
+    border:1px solid red;
+    margin:20px;
+} */
+#upper{
+    text-transform:uppercase;
+    line-height:30px;
+    
+}
+#footer{
+    display:inline-block;
+    
+    color:blueviolet;
+    
+    
+
+}
+#social{
+    width:30%;
+    
+    float:left;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+#Disclaimer{
+    width:65%;
+   
+    float:right;
+    text-decoration: none;
+    
+    
+
+}
+a{
+    color:rgb(157, 255, 0);
+    text-decoration: none;
+
+}
+#color{
+    color:rgb(157, 255, 0);
+}
+ul{
+    list-style-type:none;
+}
+.contact{
+    color:white;
+    font-size:30px;
+}
+#img1{
+    
+    margin-top:10px;
+}
+
+#logo1{
+    float:left;
+    margin-right:5px;
+}
+
+
+
