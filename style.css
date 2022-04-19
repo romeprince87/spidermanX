@@ -6,7 +6,7 @@ body{
     background-color:black;
     color:rgb(157, 255, 0);
     padding:10px;
-    height:1300px;
+    height:1400px;
     width:100vw;
     display:flex;
     flex-direction:column;
@@ -28,20 +28,37 @@ body{
     color:white;
 
 }
-
-.div1{
-    display:flex;
-    flex-direction:row;
-    background-color:black;
-    height:600px;
-    width: 500px;
-    flex-wrap:wrap;
-    border:1px solid white;
-    margin:20px;
-    border-radius: 10%;
-    
-   
+@media screen and (min-width:500px){
+    .div1{
+        display:flex;
+        flex-direction:row;
+        background-color:black;
+        height:600px;
+        width: 500px;
+        flex-wrap:wrap;
+        border:1px solid white;
+        margin:20px;
+        border-radius: 10%;
+        
+       
+    }
 }
+@media screen and (max-width:500px){
+    /* .div1{
+        display:flex;
+        flex-direction:row;
+        background-color:black;
+        height:600px;
+        width: 500px;
+        flex-wrap:wrap;
+        border:1px solid white;
+        margin:20px;
+        border-radius: 10%;
+        
+       
+    } */
+}
+
 /* *{
     border:1px solid red;
     margin:20px;
@@ -80,9 +97,9 @@ body{
 @media screen and (max-width:400px){
     #social{
         width:40%;
+        display:block;
         
-        
-        /* margin-right: 10px; */
+        margin-top: 30px; 
         font-size: 20px;
         text-decoration: none;
         
